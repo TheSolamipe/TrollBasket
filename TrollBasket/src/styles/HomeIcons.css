@@ -1,0 +1,43 @@
+.homeIcons {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin: 6rem;
+}
+.homeIcons__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.homeIcons__item--img {
+  padding: 4rem 4rem;
+  border-radius: 4px;
+  width: 3.5rem;
+}
+.homeIcons__item--text {
+  font-size: 2rem;
+}
+.blue {
+  background-color: #227eff;
+}
+.purple {
+  background-color: #7e42f5;
+}
+.orange {
+  background-color: #ee6f44;
+}
+.green {
+  background-color: #05944f;
+}
+
+@media screen and (max-width: 620px) {
+  .homeIcons__item--img {
+    padding: 2rem 2rem;
+    border-radius: 4px;
+  }
+  .homeIcons__item--text {
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+}

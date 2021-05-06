@@ -1,0 +1,27 @@
+.slider__image {
+  width: 96%;
+  z-index: 2;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+.imgdetails {
+  border-radius: 2rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .slider__image {
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .slider__image {
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .slider__image {
+    width: 92%;
+    margin-left: 2rem;
+  }
+}

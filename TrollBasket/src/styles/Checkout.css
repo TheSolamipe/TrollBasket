@@ -1,0 +1,12 @@
+.checkout {
+  padding: 2rem;
+  background-color: #f8f8f8;
+  height: max-content;
+}
+.checkout__title {
+  padding: 1rem;
+  border-bottom: 0.1rem solid lightgray;
+}
+
+@media screen and (max-width: 450px) {
+}

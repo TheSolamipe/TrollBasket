@@ -1,0 +1,13 @@
+.home {
+  max-width: 150rem;
+  margin: 0 auto;
+  background-color: white;
+}
+.home__row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  /* max-width: 80vw; */
+  margin: 0 0.5rem;
+}

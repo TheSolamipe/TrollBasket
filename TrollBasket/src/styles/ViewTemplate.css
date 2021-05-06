@@ -1,0 +1,124 @@
+.viewTemplate {
+  position: relative;
+}
+.viewTemplate__message {
+  position: absolute;
+  top: 0;
+  width: 85%;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  font-size: 2.2rem;
+  background-color: #d3fde9;
+  padding: 2rem;
+  margin-left: 2rem;
+}
+.viewTemplate__image {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  background-color: #f7f5f5;
+  height: 40vw;
+}
+.viewTemplate__image > img {
+  width: 85%;
+  /* height: 100%; */
+}
+.viewTemplate__details {
+  /* margin-top: 2rem; */
+  padding: 2rem;
+}
+.viewTemplate__title {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+.viewTemplate__price {
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+.viewTemplate__price > span {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.viewTemplate__description {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+  border-bottom: 2px solid #e5e5e5;
+  border-top: 2px solid #e5e5e5;
+}
+.viewTemplate__description > h4 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.viewTemplate__rating {
+  margin-top: 2rem;
+}
+.viewTemplate__rating--title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+.viewTemplate__rating--title > span {
+  color: #227eff;
+}
+.viewTemplate__rating > span {
+  display: flex;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.viewTemplate__rating > span > p {
+  margin-left: 1.5rem;
+}
+/* .viewTemplate__review {
+} */
+.viewTemplate__review > p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #627483;
+  margin-bottom: 1rem;
+}
+.viewTemplate__review--person {
+  display: flex;
+  align-items: center;
+}
+.viewTemplate__review--person > img {
+  margin-right: 1rem;
+}
+.viewTemplate__review--person > p {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.viewTemplate__btns {
+  border-top: 4px solid #e5e5e5;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem 0;
+}
+.viewTemplate__btns--blue {
+  background-color: #227eff;
+  color: white;
+  padding: 1.8rem 6rem;
+  border-radius: 4px;
+  box-shadow: none;
+  border: 0px;
+}
+.viewTemplate__btns--white {
+  background-color: white;
+  color: black;
+  padding: 1.8rem 7rem;
+  border-radius: 4px;
+  box-shadow: none;
+  border: 1px solid#627483;
+}
+
+@media screen and (max-width: 620px) {
+  .viewTemplate__image {
+    height: 57vw;
+  }
+}
